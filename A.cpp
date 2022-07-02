@@ -28,8 +28,7 @@ class A{
  };
 
 void A:: print(){
-    cout<<"after performing the addition"<<endl
-    <<x<<"and the other is"<<y<<endl;
+    cout<<"after performing the addition first number"<<x<<" and the other is "<<y<<endl;
 }
 int main()
 {
