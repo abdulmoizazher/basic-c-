@@ -5,7 +5,7 @@ int  bonus( int a){
     } 
     if (a > 5){
         return (2000*a)/12;
-    }
+    }return (2000*a)/12;
 }
 int  additionalbonus( int b){
     if( 50000<b && b>100000 ){
@@ -13,7 +13,7 @@ int  additionalbonus( int b){
     }
     if (b >100000){
         return b*0.6;
-    }
+    }return b*0.6;
 }
 #include<iostream>
 using namespace std;
@@ -23,6 +23,7 @@ int main()
   int years;
   int sales ;
   int totalsalary;
+  int x;
      cout<<"enter the  basic salary";
  cin >>salary;
 cout <<"enter the years";
@@ -33,5 +34,7 @@ int a = bonus(years);
 int b = additionalbonus(sales);
 totalsalary = salary + a + b ;
 cout<<"the total salary is " << totalsalary;
- return 0;}
+cin>>x;
+if(x=0)
+ {return 0;}}
   

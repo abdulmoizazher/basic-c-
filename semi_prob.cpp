@@ -1,5 +1,5 @@
 // This program demonstrates a compile error.
-// abdul mopiz azher
+// abdul moiz azher
 #include<iostream>
 using namespace std;
 int main(){
