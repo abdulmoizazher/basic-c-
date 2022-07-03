@@ -23,15 +23,10 @@ class rectangle{
 };
 
 bool rectangle :: operator!()
-{ if (this->length == 0)
+{ if (this->length == 0 || this->breath == 0)
     return true;
     else
     return false;
-     if (this->breath == 0)
-    return true;
-    else
-    return false;
-     
 }
 int main(){
     rectangle rec1(20,21);
