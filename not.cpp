@@ -19,20 +19,28 @@ class rectangle{
         cout<<"the breath of rectangle is "<<breath;
      }
 
-     bool operator != (const rectangle& ) const;
+     bool operator !() ;
 };
 
-bool rectangle :: operator !=(const rectangle&  rec) const
-{
-    return (length != rec.length || breath != rec.breath);
-
+bool rectangle :: operator!()
+{ if (this->length == 0)
+    return true;
+    else
+    return false;
+     if (this->breath == 0)
+    return true;
+    else
+    return false;
+     
 }
 int main(){
     rectangle rec1(20,21);
-    rectangle rec2( 50, 60);
-    if ( rec1 != rec2){
-    std :: cout<<"the objects are not equal";
-    };
+     if (!rec1){
+    std :: cout<<"yes";
+        }
+        else
+        {
+        std :: cout<<"no";}
     return 0;
 
 }
