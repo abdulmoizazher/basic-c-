@@ -54,7 +54,7 @@ class pg : public student{
     }
      void display()
     {
-      std::cout<<name<<"\n"<<age<<"\n"<<sem<<"\n";
+      std::cout<<name<<"\n"<<age<<"\n"<<sem<<"\n"<<fee<<"\n";
     }
 };
 int main()

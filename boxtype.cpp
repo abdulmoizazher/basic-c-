@@ -10,7 +10,6 @@ class rectangle {
         color = 0;
 
     }
-
     void getcolor(){
         std :: cout<<"enter the colour";
         std:: cin>>color;
