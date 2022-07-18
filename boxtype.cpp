@@ -24,7 +24,7 @@ class rectangle {
     }
     void display()
 {
-    std::cout<<lenght<<breath<<std::endl;
+    std::cout<<"the lenght is "<<lenght<<std::endl<<"the breath is "<<breath<<std::endl;
 }
     int area() const
     {
@@ -53,7 +53,7 @@ class boxtype : public  rectangle
 
    void display(){
   rectangle :: display();
-  std::cout<<height;
+  std::cout<<"the height is "<<height<<"\n";
    }
 } ;
 
