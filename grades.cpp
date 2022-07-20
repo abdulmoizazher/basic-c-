@@ -1,6 +1,3 @@
-// This program prints "You Pass" if a student's average is 
-// 60 or higher and prints "You Fail" otherwise
-// Abdul Moiz azher
 #include <iostream>
 using namespace std;
 void grades (float &num );

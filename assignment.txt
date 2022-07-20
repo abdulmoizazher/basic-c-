@@ -5,4 +5,6 @@ lab 6.1 ka question 2 = speed
 
 
 lab 6.2 ka question 2 = lab6
+lab 6.2 ka question 2 = winrate
+lab 6.2 ka question 2 = total
 

@@ -31,7 +31,7 @@ else if (choice == 2){
     float mile;
     cout<<" enter the miles to be converted";
     cin>>mile;
-    cout<<miles<<"is equal "<<miles(mile)<<"kilometers";
+    cout<<mile<<"is equal "<<miles(mile)<<"kilometers";
 }
 }
 while (choice != 3);
@@ -40,7 +40,7 @@ return 0;
 }
 float miles(float mil)
 {
-    return 0.621;
+    return 0.621* mil;
    
 };
 float kilometers(float kilo)
